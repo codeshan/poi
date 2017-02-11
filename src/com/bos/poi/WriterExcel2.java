@@ -39,7 +39,6 @@ public class WriterExcel2 {
 				HSSFCell cell = row.createCell(j);
 				/** 设置列中的值 */
 				cell.setCellValue("单元格"+i+j);
-				System.out.println(cell);
 			}
 		}
 		/**
